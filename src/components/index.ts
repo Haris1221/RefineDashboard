@@ -21,7 +21,8 @@ export {
     LatestActivities
 }
 
-export * from './tags/user-tag'
+export * from './tagss/contact-status-tag'
+export * from './tagss/user-tag'
 export * from './text'
 export * from './accordion'
 export * from './tasks/form/description'
