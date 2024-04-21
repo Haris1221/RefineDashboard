@@ -8,8 +8,7 @@ import ProjectCardSkeleton from "./skeleton/project-card";
 import DashboardTotalCountCard from "./home/total-count-card";
 import LatestActivities from "./home/latest-activities";
 
-
-export { 
+export {
     UpcomingEvents,
     DealsChart,
     UpcomingEventsSkeleton,
@@ -18,15 +17,15 @@ export {
     LatestActivitiesSkeleton,
     ProjectCardSkeleton,
     DashboardTotalCountCard,
-    LatestActivities
-}
+    LatestActivities,
+};
 
-export * from './tagss/user-tag'
-export * from './text'
-export * from './accordion'
-export * from './tasks/form/description'
-export * from './tasks/form/due-date'
-export * from './tasks/form/header'
-export * from './tasks/form/stage'
-export * from './tasks/form/title'
-export * from './tasks/form/users'
+export * from "@/components/newtags/contact-status-tag";
+export * from "./text";
+export * from "./accordion";
+export * from "./tasks/form/description";
+export * from "./tasks/form/due-date";
+export * from "./tasks/form/header";
+export * from "./tasks/form/stage";
+export * from "./tasks/form/title";
+export * from "./tasks/form/users";

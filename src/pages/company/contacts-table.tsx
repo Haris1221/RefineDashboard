@@ -19,7 +19,7 @@ import { COMPANY_CONTACTS_TABLE_QUERY } from "@/graphql/queries";
 import { CompanyContactsTableQuery } from "@/graphql/types";
 import { Text } from "@/components/text";
 import CustomAvatar from "@/components/custom-avatar";
-import { ContactStatusTag } from "@/components/tagss/contact-status-tag";
+import { ContactStatusTag } from "@/components/newtags/contact-status-tag";
 
 export const CompanyContactsTable = () => {
   // get params from the url
@@ -94,7 +94,7 @@ export const CompanyContactsTable = () => {
         // gqlQuery is used to specify the GraphQL query that should be used to fetch the data.
         gqlQuery: COMPANY_CONTACTS_TABLE_QUERY,
       },
-    },
+    }
   );
 
   return (
